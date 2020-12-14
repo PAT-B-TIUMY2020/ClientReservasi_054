@@ -47,7 +47,7 @@ namespace ClientReservasi_054
             string NamaCustomer = textBoxNama.Text;
             string NoTelpon = textBoxNoTlf.Text;
 
-            var a = service.editPemesanan(IDPemesanan, NamaCustomer);
+            var a = service.editPemesanan(IDPemesanan, NamaCustomer, NoTelpon);
             MessageBox.Show(a);
             TampilData();
             Clear();
