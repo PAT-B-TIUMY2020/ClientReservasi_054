@@ -128,6 +128,9 @@
             // comboBoxKategori
             // 
             this.comboBoxKategori.FormattingEnabled = true;
+            this.comboBoxKategori.Items.AddRange(new object[] {
+            "Admin",
+            "Resepsionis"});
             this.comboBoxKategori.Location = new System.Drawing.Point(216, 238);
             this.comboBoxKategori.Name = "comboBoxKategori";
             this.comboBoxKategori.Size = new System.Drawing.Size(207, 24);
